@@ -1,11 +1,14 @@
 import './styles/app.css'
-import Nav from './components/Home/nav/nav'
+import Nav from './components/General/nav/nav'
+import NavItem from './components/NavItem/NavItem'
 //import Hero from './components/Home/Hero'
 
 function App() {
   return (
+    <>
     <Nav />
-    //<Hero />
+    <NavItem />
+    </>
   );
 }
 

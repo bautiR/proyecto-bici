@@ -1,4 +1,5 @@
 import './nav.css'
+import'./components/General/Nav/NavItem/NavItem.jsx'
 function Nav(){
     return(
         
@@ -9,6 +10,7 @@ function Nav(){
 
                 <nav>
                     <ul>
+                        
                         <li>
                             <a href = '#'>Home</a>
                         </li>
