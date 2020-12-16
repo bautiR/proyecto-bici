@@ -1,5 +1,7 @@
+import ProductCard from '../ProductCard/ProductCard';
 import './nav.css'
-import'./components/General/Nav/NavItem/NavItem.jsx'
+import './NavItem/NavItem'
+import NavItem from './NavItem/NavItem'
 function Nav(){
     return(
         
@@ -24,6 +26,10 @@ function Nav(){
                         </li>
                         <li>
                             <a href = '#'>Contacto</a>
+
+                        </li>
+                        <li>
+                        <NavItem></NavItem>
 
                         </li>
                     </ul>

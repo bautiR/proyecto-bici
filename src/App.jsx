@@ -1,6 +1,7 @@
 import './styles/app.css'
 import Nav from './components/General/nav/nav'
-import NavItem from './components/NavItem/NavItem'
+import NavItem from './components/General/nav/NavItem/NavItem.jsx'
+import ProductCard from './components/General/ProductCard/ProductCard'
 //import Hero from './components/Home/Hero'
 
 function App() {
@@ -8,6 +9,12 @@ function App() {
     <>
     <Nav />
     <NavItem />
+    <ProductCard />
+    <ProductCard />
+    <ProductCard />
+    <ProductCard />
+
+
     </>
   );
 }

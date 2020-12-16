@@ -3,7 +3,7 @@ const NavItem = ()=>{
     return(
         <div>
             <FiShoppingCart />
-            <span>0</span>
+            
         </div>
     )
 }
