@@ -32,7 +32,9 @@ function Nav(){
                         <NavItem></NavItem>
 
                         </li>
+
                     </ul>
+
                 </nav>
             </div>
         </header>

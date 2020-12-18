@@ -1,7 +1,8 @@
+import './NavItem.css'
 import { FiShoppingCart } from 'react-icons/fi';
 const NavItem = ()=>{
     return(
-        <div>
+        <div className='costado'>
             <FiShoppingCart />
             
         </div>
